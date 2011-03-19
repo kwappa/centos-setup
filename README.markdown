@@ -10,8 +10,5 @@ Setup scripts for CentOS 5.5 on VirtualBox
 
 ### Install Guest Additions
 
-## Update yums
-
-## Setup ruby and sprinkle
-
-
+## Update yums and install ruby
+    curl https://github.com/kwappa/centos-setup/raw/master/root-setup/yum_and_ruby.sh | sh
