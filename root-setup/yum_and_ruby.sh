@@ -38,9 +38,6 @@ update_rubygems
 gem -v
 gem update
 
-# install sprinkle
-gem install sprinkle
-
 # copy setup script from github
 curl https://github.com/kwappa/centos-setup/raw/master/root-setup/create_user_and_checkout.rb > /root/setup/create_user_and_checkout.rb
 cd /root/setup
