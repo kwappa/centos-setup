@@ -1,10 +1,3 @@
-# update yum
-mkdir -p /root/setup
-cd /root/setup
-yum -y install yum-utils yum-priorities
-curl https://github.com/kwappa/centos-setup/raw/master/etc-yum.repos.d/CentOS-Base.repo > /etc/yum.repos.d/CentOS-Base.repo
-yum -y update
-
 # install dependeicies of ruby
 yum -y install readline-devel curl-devel openssl-devel zlib-devel autoconf ncurses-devel pkgconfig gettext-devel glib-devel mono-devel libxml2-devel
 
