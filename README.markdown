@@ -9,12 +9,15 @@ Setup scripts for CentOS 5.5 on VirtualBox
 ### Install CentOS 5.5
 
 
-### update yum and install baisc packages
+### update yum and install basic packages
     curl https://github.com/kwappa/centos-setup/raw/master/root-setup/update_yums.sh | sh
 
 ### Install Guest Additions
 
-### install ruby and create user `vagrant`
+### install ruby and rubygems
+    curl https://github.com/kwappa/centos-setup/raw/master/root-setup/ruby_setup.sh | sh
+
+### create user `vagrant` and setup puppet, chef, vagrant
     curl https://github.com/kwappa/centos-setup/raw/master/root-setup/vagrant_setup.sh | sh
 
 ## chef setup
